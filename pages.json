@@ -1,0 +1,45 @@
+{
+	"/home": {
+		"file": "home.html",
+		"content": {
+			"pageTitle": "Western University Aero Design Club",
+			"styles": []
+		}
+	},
+	"/members": {
+		"file": "members.html",
+		"content": {
+			"pageTitle": "Members"
+		}
+	},
+	"/projects": {
+		"file": "projects.html",
+		"content": {
+			"pageTitle": "Ventures"
+		}
+	},
+	"/hangar": {
+		"file": "hangar.html",
+		"content": {
+			"pageTitle": "Aircrafts"
+		}
+	},
+	"/history": {
+		"file": "history.html",
+		"content": {
+			"pageTitle": "Club History"
+		}
+	},
+	"/contact": {
+		"file": "contact.html",
+		"content": {
+			"pageTitle": "Contact Us"
+		}
+	},
+	"/siteInfo": {
+		"file": "site.html",
+		"content": {
+			"pageTitle": "About Site"
+		}
+	}
+}

@@ -1,0 +1,25 @@
+doctype html
+html
+	head
+		title=pageTitle
+		link(rel='stylesheet' type='text/css' href='styles/styles.css')
+		each style in styles
+			link(rel='stylesheet' type='text/css' href='styles/' + style)
+	body
+		div(class='page')
+			div(class='banner'): img(src='images/banner.jpg')
+			nav(class='navbar')
+				ul(id='home')
+					li: a(href='/home') Home
+				ul(id='locations')
+					li(id='about')
+						p About
+						ul(id='about-dropdown' class='dropdown')
+							li: a(href='/members') Members
+							li: a(href='/projects') Ventures
+							li: a(href='/history') History
+							li: a(href='/siteInfo') Site
+					li: a(href='/hangar') Hangar
+					li: a(href='/contact') Contact
+			article !{content}
+			footer: p Copyright: Not a law major, not my problem

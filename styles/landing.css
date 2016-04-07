@@ -1,0 +1,140 @@
+html {
+	height: 100%;
+}
+
+body {
+	text-align: center;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+	min-height: 100%;
+}
+
+#quote-conatiner {
+	position: fixed;
+	margin: auto auto 24px auto;
+	bottom: 20%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	background-color:rgba(180, 180, 180, .4);
+}
+
+h3 {
+	font-family: Garamond sans-serif;
+	color: white;
+	width: 80%;
+	margin: .5em auto .5em auto;
+}
+
+.button {
+	font-family: sans-serif;
+	text-decoration: none;
+	padding: .3em 0.6em;
+	border-radius: 8px;
+	border: 2px solid #59169c;
+	background-color: #417;
+	color: white;
+	box-shadow: 0 0 64px black;
+}
+
+.button-container {
+	position: fixed;
+	margin-left: auto;
+	margin-right: auto;
+	top: 80%;
+	left: 0;
+	right: 0;
+}
+
+.button:active {
+	background-color: #330855;
+}
+
+@media only screen and (max-width: 600px) {
+	body {
+		background-image: url("../images/back-mobile.jpg");
+	}
+	
+	h3 {
+		font-size: 1.2em;
+	}
+
+	.button {
+		font-size: 1.4em;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	body {
+		background-image: url("../images/back-mobile.jpg");
+	}
+
+	h3 {
+		font-size: 0.8em;
+	}
+
+	.button {
+		font-size: 1.0em;
+	}
+}
+
+@media only screen and (max-width: 300px) {
+	body {
+		background-image: url("../images/back-mobile.jpg");
+	}
+
+	h3 {
+		font-size: 0.6em;
+	}
+
+	.button {
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (min-width: 601px) {
+	body {
+		background-image: url("../images/back.jpg");
+	}
+
+	h3 {
+		max-width: 600px;
+		font-size: 1.3em;
+	}
+
+	.button {
+		font-size: 1.3em;
+	}
+}
+
+@media only screen and (orientation: landscape) and (max-height: 600px) {
+	body {
+		background-image: url("../images/back.jpg");
+	}
+
+	h3 {
+		font-size: .8em;
+	}
+
+	.button {
+		font-size: 0.8em;
+	}
+}
+
+@media only screen and (orientation: landscape) and (max-height: 300px) {
+	body {
+		background-image: url("../images/back.jpg");
+	}
+
+	h3 {
+		font-size: .6em;
+	}
+
+	.button {
+		font-size: 0.8em;
+	}
+}
