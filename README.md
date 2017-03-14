@@ -14,6 +14,10 @@ This project actually started approaching a very basic CMS in that the content i
 - `pages.json`: defines the pages that should be loaded by the router
 - `main.js`: main server script. Contains code for Express.js routing
 
+## Installing Required Dependencies
+
+`npm install express jade` to install Express.js and Jade dependencies.
+
 ## Usage
 
 `nodejs main.js` to start the server
