@@ -41,7 +41,6 @@ function sendContent(request, response) {
 var fs = require('fs');
 var jade = require('jade');
 var express = require('express');
-var express = require('express');
 
 var app = express();
 app.use(logger);
